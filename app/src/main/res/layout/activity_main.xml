@@ -14,4 +14,12 @@
         android:layout_height="wrap_content"
         android:scrollbars="vertical" />
 
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
 </RelativeLayout>
